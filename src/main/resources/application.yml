@@ -25,3 +25,8 @@ spring:
 logging:
   level:
     io.zurijang: DEBUG
+
+jwt:
+  header: Authorization
+  secret: enVyaWphbmctc3ByaW5nLWJvb3Qtand0LXR1dG9yaWFsLXNlY3JldC16dXJpamFuZy1zcHJpbmctYm9vdC1qd3QtdHV0b3JpYWwtc2VjcmV0Cg==
+  token-validity-in-seconds: 86400
